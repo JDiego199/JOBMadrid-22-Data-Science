@@ -19,25 +19,27 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 <p><b>local_time</b>: Hora local a la que se realiza el pedido.</p>
 </li>
 <li>
-<p style="color: rgba(58, 53, 65, 0.87); text-align: justify;"><b>country_code</b>: Código del pais en el que se realiza el pedido.</p>
+<p><b>country_code</b>: Código del pais en el que se realiza el pedido.</p>
 </li>
 <li>
-<p style="color: rgba(58, 53, 65, 0.87); text-align: justify;"><b>store_address</b>: Número de tienda en a la que se realiza el pedido.</p>
+<p><b>store_address</b>: Número de tienda en a la que se realiza el pedido.</p>
 </li>
 <li>
-<p style="color: rgba(58, 53, 65, 0.87); text-align: justify;"><b>payment_status</b>: Estado del pedido.</p>
+<p><b>payment_status</b>: Estado del pedido.</p>
 </li>
 <li>
-<p style="color: rgba(58, 53, 65, 0.87); text-align: justify;"><b>n_of_products</b>: Número de productos que se han comprado en ese pedido.</p>
+<p><b>n_of_products</b>: Número de productos que se han comprado en ese pedido.</p>
 </li>
 <li>
-<p style="color: rgba(58, 53, 65, 0.87); text-align: justify;"><b>products_total</b>: Cantidad en Euros que el usuario ha comprado en la app.</p>
+<p ><b>products_total</b>: Cantidad en Euros que el usuario ha comprado en la app.</p>
 </li>
 <li>
-<p style="color: rgba(58, 53, 65, 0.87); text-align: justify;"><b>final_status</b>: Estado final del pedido (este será la variable 'target' a predecir) que indicara si el pedido será finalmente entregado o cancelado. Hay dos tipos de estado:</p>
+<p><b>final_status</b>: Estado final del pedido (este será la variable 'target' a predecir) que indicara si el pedido será finalmente entregado o cancelado. Hay dos tipos de estado:</p>
 <ul>
 <li>CanceledStatus: La entrega se ha cancelado.</li>
 <li>DeliveredStatus: La entrega se ha realizado correctamente.</li>
 </ul>
 </li>
 </ul>
+
+
