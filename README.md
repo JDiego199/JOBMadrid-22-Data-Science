@@ -62,6 +62,4 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 <li>Turno 3 (16:00-00:00)</li>
 </ul>
 <p>Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda. (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%).</p>
-<ul>
-<li>5. Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status').</li>
-</ul>
+<li>Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status').</li>
