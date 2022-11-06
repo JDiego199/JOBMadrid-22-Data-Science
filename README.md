@@ -42,4 +42,47 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 </li>
 </ul>
 
+<p >Archivos:</p>
 
+<ul>
+<li><b>train.csv</b>: Este dataset contiene tanto las variables predictoras como el estado del pedido (TARGET).</li>
+<li><b>text_X.csv.</b>: Este dataset contiene las variables predictoras con las que se tendrá que predecir el estado de un pedido.</li>
+</ul>
+
+<h2>Objetivos</h2>
+
+<ul>
+<li>
+<ol>
+<li>¿Cuáles son los 3 paises en los que más pedidos se realizan?</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>¿Cuáles son las horas en las que se realizan más pedidos en España?</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>¿Cuál es el precio medio por pedido en la tienda con ID 12513?</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>Teniendo en cuenta los picos de demanda en España, si los repartidores trabajan en turnos de 8horas.</li>
+</ol>
+<ul>
+<li>Turno 1 (00:00-08:00)</li>
+<li>Turno 2 (08:00-16:00)</li>
+<li>Turno 3 (16:00-00:00)</li>
+</ul>
+</li>
+</ul>
+<p>Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda. (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%).</p>
+<ul>
+<li>
+<ol start="5">
+<li>Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status').</li>
+</ol>
+</li>
+</ul>
