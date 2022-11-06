@@ -52,30 +52,16 @@ Cuando un usuario pide un pedido a través de Akadelivers se le cobra directamen
 <h2>Objetivos</h2>
 
 <ul>
-<li>
-<ol>
-<li>1. ¿Cuáles son los 3 paises en los que más pedidos se realizan?</li>
-</ol>
-</li>
-<li>
-<li>2. ¿Cuáles son las horas en las que se realizan más pedidos en España?</li>
-</li>
-<li>
-<li>3. ¿Cuál es el precio medio por pedido en la tienda con ID 12513?</li>
-</li>
-<li>
-<li>4. Teniendo en cuenta los picos de demanda en España, si los repartidores trabajan en turnos de 8horas.</li>
-</ol>
+<li>¿Cuáles son los 3 paises en los que más pedidos se realizan?</li>
+<li>¿Cuáles son las horas en las que se realizan más pedidos en España?</li>
+<li>¿Cuál es el precio medio por pedido en la tienda con ID 12513?</li>
+<li>Teniendo en cuenta los picos de demanda en España, si los repartidores trabajan en turnos de 8horas.</li>
 <ul>
 <li>Turno 1 (00:00-08:00)</li>
 <li>Turno 2 (08:00-16:00)</li>
 <li>Turno 3 (16:00-00:00)</li>
 </ul>
-</li>
-</ul>
 <p>Qué porcentaje de repartidores pondrías por cada turno para que sean capaces de hacer frente a los picos de demanda. (ej: Turno 1 el 30%, Turno 2 el 10% y Turno 3 el 60%).</p>
 <ul>
-<li>
 <li>5. Realiza un modelo predictivo de machine learning a partir del dataset 'train.csv' en el cual a partir de las variables predictoras que se entregan en el dataset 'test_X' se pueda predecir si el pedido se cancelará o no (columna 'final_status').</li>
-</li>
 </ul>
